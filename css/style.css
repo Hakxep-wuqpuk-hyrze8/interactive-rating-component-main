@@ -1,0 +1,151 @@
+body {  
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+p {
+    font-size: 15px;
+}
+.container {
+    height: 100vh;
+}
+
+.box {
+    width: 24rem;
+    height: 24rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+    position: relative;
+}
+
+.star {
+    background-color: hsl(212, 12%, 25%);
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    color: #FFF;
+    position: absolute;
+    top: 7rem;
+    left: 1.5rem;
+    padding-right: 2rem;
+}
+.content .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.content .subtitle {
+    opacity: 0.5;
+}
+
+.star-radio {
+    border-radius: 100%;
+    background-color: hsl(212, 12%, 25%);
+    width: 2.8rem;
+    height: 2.8rem;
+    color:  #FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    position: relative;
+    top: 15rem;
+    left: 1rem; 
+    border: hsl(212, 12%, 25%);
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+    font-size: 10px;
+}
+
+.submit-btn:focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+    font-size: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #FFF;
+    color: hsl(25, 97%, 53%);
+    border: #FFF;
+}
+
+.star-radio:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+    border: hsl(25, 97%, 53%);
+}
+ 
+/* Thanks-page */
+
+.phone {
+    position: relative;
+    top: 3rem;
+}
+
+.selectedResultSection {
+    background-color: hsl(218, 12%, 32%);
+    color: rgb(223, 131, 74);
+    position: relative;
+    top: -130px;
+    margin: 0 auto;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.selectedResult {
+    position: absolute;
+    top: 0.4rem;
+}
+
+.thanks-content {
+    color: #FFF;
+    position: relative;
+    top: 8rem;
+    margin: 0 30px;
+}
+.thanks-content .title {
+    font-size: 28px;
+}
+.thanks-content .subtitle {
+    opacity: 0.5;
+}
+
+.hide {
+    visibility: hidden;
+}
