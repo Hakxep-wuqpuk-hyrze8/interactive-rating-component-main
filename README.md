@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Hakxep-wuqpuk-hyrze8/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://hakxep-wuqpuk-hyrze8.github.io/interactive-rating-component-main/)
+- Solution URL: [solution URL here](https://github.com/Hakxep-wuqpuk-hyrze8/interactive-rating-component-main)
+- Live Site URL: [live site URL here](https://hakxep-wuqpuk-hyrze8.github.io/interactive-rating-component-main/)
 
 ## My process
 
